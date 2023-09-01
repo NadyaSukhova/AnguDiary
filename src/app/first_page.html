@@ -1,0 +1,25 @@
+<router-outlet></router-outlet>
+<div class="center">
+  Hey! It's AnguDiary! <br>
+  Wanna login?<br>
+  <button (click)="ShowLogin()">Login</button>
+  <button (click)="ShowRegistry()">I have no account :(</button><br>
+  <div id="loginwindow" *ngIf="LoginChoice">
+    Login:<br>
+    <input [(ngModel)]="UserLogin"><br>
+    Password:<br>
+    <input type="password" [(ngModel)]="UserPassword"><br>
+    <button (click)="LoginAcc()">Confirm</button>
+  </div>
+  <div id="registrywindow" *ngIf="RegistryChoice">
+    Okay! Let's create an account for you! <br>
+    Here's some info we're gonna need from you!<br>
+    Name: <br>
+    <input [(ngModel)]="UserName"><br>
+    Login:<br>
+    <input [(ngModel)]="UserLogin"><br>
+    Password:<br>
+    <input type="password" [(ngModel)]="UserPassword"><br>
+    <button (click)="AddAcc()">Confirm</button>
+  </div>
+</div>

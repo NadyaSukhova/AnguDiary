@@ -1,0 +1,1 @@
+{"ast":null,"code":"//just in case\nexports.getAccs = function () {\n  console.log(\"Hello Call JS Function From TypeScript \");\n  const accs = require(\"./authorisation.json\");\n  return accs;\n};","map":null,"metadata":{},"sourceType":"script","externalDependencies":[]}

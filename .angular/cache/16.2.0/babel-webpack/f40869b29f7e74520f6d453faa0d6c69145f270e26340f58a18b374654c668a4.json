@@ -1,0 +1,1 @@
+{"ast":null,"code":"//just in case\nexports.checkFunc = function () {\n  console.log(\"Hello Call JS Function From TypeScript \");\n  $.get(\"/check_user.py\", function (data) {\n    alert(data);\n  });\n};","map":null,"metadata":{},"sourceType":"script","externalDependencies":[]}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"//just in case\nexports.getAccs = function () {\n  const accs = require(\"./authorisation.json\");\n  return accs;\n};\nexports.getAccs = function () {\n  var accs = require(\"./authorisation.json\");\n};","map":null,"metadata":{},"sourceType":"script","externalDependencies":[]}

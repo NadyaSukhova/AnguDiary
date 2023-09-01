@@ -1,0 +1,1 @@
+{"ast":null,"code":"//just in case\nimport data from \"./authorisation.json\";\nexports.checkFunc = function () {\n  console.log(\"Hello Call JS Function From TypeScript \");\n  console.log(data);\n};","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
